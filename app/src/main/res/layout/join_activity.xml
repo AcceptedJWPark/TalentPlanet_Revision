@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/SharingList_WholeLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:background="#fafdff"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:padding="0dp"
+        android:fitsSystemWindows="true"
+        >
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/toolbarlayout"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:background="#fafdff">
+
+        <Button
+            android:id="@+id/btn_basicinfo_join"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="기본 정보"
+            android:background="@drawable/bgr_clicked"
+            android:textSize="@dimen/SubTxt"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/btn_location_join"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="위치"
+            android:textSize="@dimen/AdditionTxt"
+            android:background="@drawable/bgr_unclicked"
+            android:textColor="@color/textColor_addtion"
+            />
+
+        <Button
+            android:id="@+id/btn_mentor_join"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mentor"
+            android:textSize="@dimen/AdditionTxt"
+            android:background="@drawable/bgr_unclicked"
+            android:textColor="@color/textColor_addtion"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/btn_mentee_join"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mentee"
+            android:textSize="@dimen/AdditionTxt"
+            android:textColor="@color/textColor_addtion"
+            android:background="@drawable/bgr_unclicked"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_phoneconfirm_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="휴대폰 본인 인증"
+        android:textColor="#000000"
+        android:textSize="@dimen/MainTxt"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height40dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    >
+
+
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9"
+                        android:gravity="center"
+                        android:background="@drawable/bgr_joininput"
+                        android:textSize="@dimen/SubTxt"
+                        android:textColor="#000000"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="-"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9"
+                        android:gravity="center"
+                        android:textSize="@dimen/SubTxt"
+                        android:background="@drawable/bgr_joininput"
+                        android:textColor="#000000"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="-"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9"
+                        android:gravity="center"
+                        android:background="@drawable/bgr_joininput"
+                        android:textSize="@dimen/SubTxt"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="인증 요청"
+                    android:textColor="#000000"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:textSize="@dimen/SubTxt"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bgr_talentunselected"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:background="@drawable/bgr_joininput"
+                android:textSize="@dimen/SubTxt"
+                android:hint="인증번호를 입력하세요"
+                android:textColor="#000000"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="인증 완료"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_join"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

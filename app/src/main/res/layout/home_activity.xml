@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout_TalentSharing"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout android:id="@+id/SharingList_WholeLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="24"
+    android:clickable="true"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:fitsSystemWindows="true"
+            >
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/toolbarlayout"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"
+            >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mainbanner1"
+                    />
+
+                </android.support.v4.view.ViewPager>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_firstImg_Home"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/viewpager_selected"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_secondImg_Home"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/viewpager_unselected"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_thirdImg_Home"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/viewpager_unselected"
+                        />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height40dp"
+                android:paddingLeft="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Mentor"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/MainTxt"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="|"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/MainTxt"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Mentee"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColor_object"
+                    android:textSize="@dimen/SubTxt"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/ll_career_home"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_career_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="취업"
+                                android:textSize="@dimen/AdditionTxt"
+                                android:textColor="@color/textColor_subject"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_study_home"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="@dimen/Height30dp"
+                                android:adjustViewBounds="true"
+                                android:tint="@color/textColor_subject"
+                                android:src="@drawable/home_study_icon"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="학습"
+                                android:textSize="@dimen/AdditionTxt"
+                                android:textColor="@color/textColor_subject"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_money_home"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="@dimen/Height30dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/home_money_icon"
+                                android:tint="@color/textColor_subject"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="재테크"
+                                android:textSize="@dimen/AdditionTxt"
+                                android:textColor="@color/textColor_subject"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_it_home"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="@dimen/Height30dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/home_it_icon"
+                                android:tint="@color/textColor_subject"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT"
+                                android:textSize="@dimen/AdditionTxt"
+                                android:textColor="@color/textColor_subject"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_camera_home"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="@dimen/Height30dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/home_camera_icon"
+                                android:tint="@color/textColor_subject"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="사진"
+                                android:textSize="@dimen/AdditionTxt"
+                                android:textColor="@color/textColor_subject"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/ll_music_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_music_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="음악"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            android:layout_marginTop="5dp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_design_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:tint="@color/textColor_subject"
+                            android:src="@drawable/home_design_icon"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="미술·디자인"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_sports_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_sports_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="운동·스포츠"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_living_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_living_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="생활"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_beauty_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_beauty_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="뷰티·패션"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/ll_volunteer_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_volunteer_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="사회봉사"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_travel_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:tint="@color/textColor_subject"
+                            android:src="@drawable/home_travel_icon"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="여행·여가"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_culture_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_culture_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="문화"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_game_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_game_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="게임"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_search_home"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="@dimen/Height30dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/home_search_icon"
+                            android:tint="@color/textColor_subject"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="직접 검색"
+                            android:textSize="@dimen/AdditionTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee"
+                android:layout_marginTop="25dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fafdfd"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Mentor"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/MainTxt"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="|"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/MainTxt"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Mentee"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textColor_object"
+                            android:textSize="@dimen/SubTxt"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="화재의 재능 Top 5"
+                        android:gravity="center"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#000000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="2018.Sep.2W"
+                        android:gravity="center"
+                        android:textSize="@dimen/AdditionTxt"
+                        android:textColor="@color/textColor_subject"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height60dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/test_sports"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="운동/스포츠"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/MainTxt"
+                                android:textColor="#000000"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="헬스"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/SubTxt"
+                                android:textColor="@color/textColor_subject"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="1,742명의 Mentor가 있습니다."
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/test_right"
+                        android:tint="@color/textColor_subject"
+                        android:padding="@dimen/Height20dp"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eeeeee"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/test_music"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="음악"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/MainTxt"
+                                android:textColor="#000000"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="악기연주"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/SubTxt"
+                                android:textColor="@color/textColor_subject"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="1,112명의 Mentor가 있습니다."
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/test_right"
+                        android:tint="@color/textColor_subject"
+                        android:padding="@dimen/Height20dp"
+                        />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eeeeee"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/test_travel"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="여행/여가"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/MainTxt"
+                                android:textColor="#000000"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="캠핑"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/SubTxt"
+                                android:textColor="@color/textColor_subject"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="973명의 Mentor가 있습니다."
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/test_right"
+                        android:tint="@color/textColor_subject"
+                        android:padding="@dimen/Height20dp"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eeeeee"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/test_it"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT/프로그래밍"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/MainTxt"
+                                android:textColor="#000000"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="서버"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/SubTxt"
+                                android:textColor="@color/textColor_subject"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="973명의 Mentor가 있습니다."
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/test_right"
+                        android:tint="@color/textColor_subject"
+                        android:padding="@dimen/Height20dp"
+                        />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eeeeee"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height60dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/test_music"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="음악"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/MainTxt"
+                                android:textColor="#000000"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="악기연주"
+                                android:gravity="center_vertical"
+                                android:textSize="@dimen/SubTxt"
+                                android:textColor="@color/textColor_subject"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="512명의 Mentor가 있습니다."
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_subject"
+                            />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/test_right"
+                        android:tint="@color/textColor_subject"
+                        android:padding="@dimen/Height20dp"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eeeeee"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#fcfcfc"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="@dimen/Height20dp"
+                android:layout_height="@dimen/Height20dp"
+                android:tint="@color/textColor_subject"
+                android:src="@drawable/icon_homebottom_home"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_subject"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/Height20dp"
+                android:layout_height="@dimen/Height20dp"
+                android:src="@drawable/home_music_icon"
+                android:tint="@color/textColor_subject"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mentor"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_subject"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/Height20dp"
+                android:layout_height="@dimen/Height20dp"
+                android:tint="@color/textColor_subject"
+                android:src="@drawable/home_sports_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mentee"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_subject"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_question_customerCenter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="@dimen/Height20dp"
+                android:layout_height="@dimen/Height20dp"
+                android:tint="@color/textColor_subject"
+                android:src="@drawable/icon_homebottom_condition"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="재능상태"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_subject"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="@dimen/Height20dp"
+                android:layout_height="@dimen/Height20dp"
+                android:src="@drawable/icon_homebottom_chat"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메신저"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_subject"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/view_DarawerLayout_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <include
+            layout="@layout/drawerlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+

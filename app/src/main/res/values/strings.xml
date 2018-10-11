@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">TalentPlanet_Renewal</string>
+
+    <string-array name="career">
+        <item>취업·이직</item>
+        <item>실무 경험</item>
+        <item>기업 정보</item>
+        <item>해외 취업</item>
+        <item>이색 스펙</item>
+    </string-array>
+
+
+    <string-array name="study">
+        <item>외국어</item>
+        <item>자격증 시험</item>
+        <item>전문자격·공인시험</item>
+        <item>전공 공부·시험</item>
+        <item>유학 경험</item>
+    </string-array>
+
+    <string-array name="money">
+        <item>부동산</item>
+        <item>주식</item>
+        <item>채권</item>
+        <item>예금·적금</item>
+        <item>이색 재테크</item>
+    </string-array>
+
+    <string-array name="it">
+        <item>서버·DB</item>
+        <item>일반코딩·개발</item>
+        <item>컴퓨터 보안</item>
+        <item>네트워크 통신</item>
+        <item>오피스 문서작업</item>
+        <item>클라이언트</item>
+        <item>IT 기기</item>
+    </string-array>
+
+
+    <string-array name="camera">
+        <item>사진 촬영</item>
+        <item>영상 촬영</item>
+        <item>사진 편집</item>
+        <item>영상 편집</item>
+        <item>카메라</item>
+    </string-array>
+
+
+    <string-array name="music">
+        <item>악기 연주</item>
+        <item>보컬</item>
+        <item>작곡·작사</item>
+        <item>밴드·공연</item>
+        <item>클래식</item>
+        <item>음악 감상</item>
+    </string-array>
+
+    <string-array name="design">
+        <item>취미 미술</item>
+        <item>순수 미술</item>
+        <item>웹·모바일 디자인</item>
+        <item>상업 디자인</item>
+        <item>미술 감상</item>
+    </string-array>
+
+    <string-array name="sports">
+        <item>헬스</item>
+        <item>수영</item>
+        <item>요가·필라테스</item>
+        <item>축구</item>
+        <item>야구</item>
+        <item>농구</item>
+        <item>사이클</item>
+        <item>인라인·스케이트</item>
+        <item>스키·보드</item>
+    </string-array>
+
+    <string-array name="living">
+        <item>요리·조리</item>
+        <item>청소</item>
+        <item>가전·가구</item>
+        <item>인테리어</item>
+        <item>반려동물</item>
+        <item>생활건강</item>
+    </string-array>
+
+    <string-array name="beauty">
+        <item>화장·미용</item>
+        <item>네일아트</item>
+        <item>패션·스타일·코디</item>
+        <item>쇼핑</item>
+        <item>핸드메이드</item>
+    </string-array>
+
+    <string-array name="travel">
+        <item>국내 여행</item>
+        <item>해외 여행</item>
+        <item>캠핑·글램핑</item>
+        <item>낚시</item>
+        <item>등산·트래킹</item>
+        <item>아웃도어</item>
+    </string-array>
+
+    <string-array name="culture">
+        <item>공연·콘서트</item>
+        <item>전시·박람회</item>
+        <item>연극·뮤지컬</item>
+        <item>영화 감상</item>
+        <item>독서 감상</item>
+    </string-array>
+
+    <string-array name="volunteer">
+        <item>취약계층 봉사활동</item>
+        <item>유기동물 봉사활동</item>
+        <item>문화·교육 봉사활동</item>
+        <item>해외 봉사활동</item>
+    </string-array>
+
+    <string-array name="game">
+        <item>FPS</item>
+        <item>RPG</item>
+        <item>스포츠</item>
+        <item>액션</item>
+        <item>전략시뮬레이션</item>
+        <item>패키지게임</item>
+    </string-array>
+
+</resources>

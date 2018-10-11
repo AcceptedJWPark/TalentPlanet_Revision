@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/SharingList_WholeLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="24"
+    android:clickable="true"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:contentInsetStart="0dp"
+                    android:contentInsetLeft="0dp"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp"
+                    android:padding="0dp"
+                    android:fitsSystemWindows="true"
+                    >
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        layout="@layout/toolbarlayout"/>
+                </android.support.v7.widget.Toolbar>
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height100dp"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/rl_picture_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/iv_picture_profile"
+                android:layout_width="@dimen/Height70dp"
+                android:layout_height="@dimen/Height70dp"
+                android:src="@drawable/picture_basic"
+                />
+
+            <TextView
+                android:layout_width="@dimen/Height70dp"
+                android:layout_height="@dimen/Height30dp"
+                android:gravity="center"
+                android:text="편집"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                android:background="#4d000000"
+                android:layout_alignBottom="@id/iv_picture_profile"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Height50dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="이름"
+        android:textSize="@dimen/MainTxt"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="박종우"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/SubTxt"
+        android:textColor="@color/textColor_object"
+        android:paddingLeft="10dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="이메일"
+            android:textSize="@dimen/MainTxt"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="pjw910123@gmail.com"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            android:paddingLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="성별"
+            android:textSize="@dimen/MainTxt"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="남자"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            />
+
+            <TextView
+                android:id="@+id/tv_genderShow_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="공개"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                android:paddingRight="10dp"
+                android:layout_toLeftOf="@id/swt_gender_home"
+                />
+
+            <Switch
+                android:id="@+id/swt_gender_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:theme="@style/SwitchColor"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="생년월일"
+            android:textSize="@dimen/MainTxt"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1991.01.23"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                android:paddingLeft="10dp"
+                android:layout_alignParentLeft="true"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_birthShow_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="공개"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                android:paddingRight="10dp"
+                android:layout_toLeftOf="@id/swt_birth_home"
+                />
+
+
+            <Switch
+                android:id="@+id/swt_birth_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:theme="@style/SwitchColor"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height50dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="장소"
+                android:textSize="@dimen/MainTxt"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="경기도 고양시 일산동구 무궁화로 43-15"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/bgr_locationselect"
+                android:text="현재 위치로 설정"
+                android:textSize="@dimen/MainTxt"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/test_map"
+                android:background="@drawable/bgr_locationselect"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

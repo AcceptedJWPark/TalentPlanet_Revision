@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="24"
+    android:clickable="true"
+    android:background="#fcfcfc"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height50dp"
+        android:background="#fafdff">
+
+        <Button
+            android:id="@+id/btn_progress_talentcondition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="진행 하기"
+            android:background="@drawable/bgr_clicked"
+            android:textSize="@dimen/MainTxt"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <Button
+            android:id="@+id/btn_complete_talentcondition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="완료 하기"
+            android:textSize="@dimen/MainTxt"
+            android:textColor="@color/textColor_addtion"
+            android:background="@drawable/bgr_unclicked"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_talentcondition_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f5f5f5"
+        android:dividerHeight="10dp"
+        android:padding="10dp"
+        android:scrollbars="none"
+        >
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/lv_talentcondition_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f5f5f5"
+        android:dividerHeight="10dp"
+        android:padding="10dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+    </ListView>
+
+
+
+
+</LinearLayout>

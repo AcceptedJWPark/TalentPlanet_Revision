@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <HorizontalScrollView
+        android:id="@+id/hs_career_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_career1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_career2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="취업·이직 경험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:background="@drawable/bgr_talentunselected"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_career3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="실무 경험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_career4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="기업 정보"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_career5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="이색 스펙"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_career6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="해외 취업"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_study_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_study1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:textColor="#ffffff"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            />
+
+        <TextView
+            android:id="@+id/tv_study2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="외국어"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_study3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="자격증 시험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_study4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="전문자격·공인시험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_study5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="전공 공부·시험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_study6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="유학 경험"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_money_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_money1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_money2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="부동산"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_money3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="주식"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_money4"
+            android:text="예금·적금·연금"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_money5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="가상화폐"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_money6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="이색 재테크"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_it_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tv_it1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="전체"
+                android:background="@drawable/bgr_talentselected"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_it2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="서버·DB"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="일반 코딩·개발"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="컴퓨터 보안"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="네트워크 통신"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="오피스 문서작업"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="클라이언트"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_it8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="IT 기기·하드웨어"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_camera_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_camera1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_camera2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="사진 촬영"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_camera3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="영상 촬영"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_camera4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="사진 편집"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_camera5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="영상 편집"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_camera6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="카메라"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_music_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_music1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_music2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="악기 연주"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_music3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="보컬"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_music4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="작곡·작사"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_music5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="밴드·공연"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_music6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="클래식"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_music7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="음악 감상"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_design_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_design1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_design2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="취미 미술"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_design3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="순수 미술"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_design4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="웹·모바일 디자인"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_design5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="상업 디자인"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_design6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="미술 감상"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_sports_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_sports1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentselected"
+                android:text="전체"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+
+
+            <TextView
+                android:id="@+id/tv_sports2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="헬스"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="수영"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+            <TextView
+                android:id="@+id/tv_sports4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="요가·필라테스"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="축구"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="야구"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="농구"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="테니스"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="베드민턴"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="사이클"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="인라인·스케이트"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_sports12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="스키·보드"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_living_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_living1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_living2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="요리·조리"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_living3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="청소"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_living4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="가전·가구"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_living5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="인테리어"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_living6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="반려동물"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_living7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="생활 건강"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+    android:id="@+id/hs_beauty_category"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Height40dp"
+    android:scrollbars="none"
+    android:visibility="gone"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_beauty1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentselected"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_beauty2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="화장·미용"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_beauty3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="네일아트"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_beauty4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="패션·스타일·코디"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+        <TextView
+            android:id="@+id/tv_beauty5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="쇼핑"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_beauty6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="핸드메이드"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+    </LinearLayout>
+</HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_travel_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height40dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_travel1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentselected"
+                android:text="전체"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tv_travel2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="국내 여행"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_travel3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="해외 여행"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_travel4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="캠핑·글램핑"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_travel5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="낚시"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_travel6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="등산·트래킹"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_travel7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="아웃도어"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_culture_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height40dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_culture1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentselected"
+                android:text="전체"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tv_culture2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="공연·콘서트"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_culture3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="전시·박람회"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_culture4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="연극·뮤지컬"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_culture5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="영화 감상"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_culture6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="독서 감상"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_volunteer_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height40dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_volunteer1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentselected"
+                android:text="전체"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tv_volunteer2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="취약계층 봉사활동"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_volunteer3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="유기동물 봉사활동"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_volunteer4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="문화·교육 봉사활동"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_volunteer5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="해외 봉사활동"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/hs_game_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height40dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height40dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_game1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentselected"
+                android:text="전체"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tv_game2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="FPS"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_game3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="RPG"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_game4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="스포츠"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+            <TextView
+                android:id="@+id/tv_game5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="액션"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_game6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgr_talentunselected"
+            android:text="전략 시뮬레이션"
+            android:gravity="center"
+            android:textSize="@dimen/SubTxt"
+            android:textColor="@color/textColor_object"
+            />
+
+            <TextView
+                android:id="@+id/tv_game7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bgr_talentunselected"
+                android:text="패키지 게임"
+                android:gravity="center"
+                android:textSize="@dimen/SubTxt"
+                android:textColor="@color/textColor_object"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

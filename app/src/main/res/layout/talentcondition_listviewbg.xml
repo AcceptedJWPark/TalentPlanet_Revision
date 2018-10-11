@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgr_talentcondition_bgr"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_picture_talentcondition_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/iv_picture_profile"
+                android:layout_width="@dimen/Height60dp"
+                android:layout_height="@dimen/Height60dp"
+                android:src="@drawable/picture_basic"
+                />
+
+            <TextView
+                android:id="@+id/tv_mentor_talentcondition_listview"
+                android:layout_width="@dimen/Height60dp"
+                android:layout_height="@dimen/Height30dp"
+                android:gravity="center"
+                android:text="Mentor"
+                android:textSize="@dimen/SubTxt"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#4d000000"
+                android:shadowColor="#000000"
+                android:shadowRadius="10.0"
+                android:shadowDx="10.0"
+                android:shadowDy="10.0"
+                android:layout_alignBottom="@id/iv_picture_profile"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/tv_name_talentcondition_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="박종우 멘토가 재능 공유를 요청하였습니다."
+                    android:textColor="@color/textcolor_nameortitle"
+                    android:textSize="@dimen/MainTxt" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+            <TextView
+                android:id="@+id/tv_point3_talentcondition_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:text="재능공유 진행 시 "
+                android:textColor="@color/textColor_addtion"
+                android:textSize="@dimen/SubTxt" />
+
+                <TextView
+                    android:id="@+id/tv_point_talentcondition_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:text="-170P"
+                    android:textColor="@color/loginPasswordLost"
+                    android:textSize="@dimen/SubTxt" />
+
+                <TextView
+                    android:id="@+id/tv_point2_talentcondition_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:text=" 차감 됩니다."
+                    android:textColor="@color/textColor_addtion"
+                    android:textSize="@dimen/SubTxt" />
+
+            </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tv_date_talentcondition_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:text="2018.10.10 19:20pm에 요청함"
+                    android:textColor="@color/textColor_addtion"
+                    android:textSize="@dimen/SubTxt" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height150dp">
+
+
+        <ImageView
+            android:id="@+id/iv_talent_talentcondition_listview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test_money"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Height150dp"
+            android:background="#4b000000"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            >
+        <TextView
+            android:id="@+id/tv_talent1_talentcondition_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="재테크"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/Height30dp"
+            android:shadowColor="#000000"
+            android:shadowRadius="10.0"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            />
+
+            <TextView
+                android:id="@+id/tv_talent2_talentcondition_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="#헬스 #스트렝스 #크로스핏 #운동"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/MainTxt"
+                android:shadowColor="#000000"
+                android:shadowRadius="10.0"
+                android:shadowDx="10.0"
+                android:shadowDy="10.0"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Height40dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="취소"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/MainTxt"
+        android:background="@drawable/bgr_talentcondition_cancelbtn"
+        />
+
+    <Button
+        android:id="@+id/btn_progress_talentcondition_listview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgr_talentcondition_okbtn"
+        android:layout_marginLeft="10dp"
+        android:text="진행"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/MainTxt"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/SharingList_WholeLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="24"
+    android:clickable="true"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:fitsSystemWindows="true"
+        >
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/toolbarlayout"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iv_talent_talentresist_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/test_money"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height150dp"
+                android:background="#4b000000"
+                />
+
+            <TextView
+                android:id="@+id/tv_talent_talentresist_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="재테크"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/Height30dp"
+                android:shadowColor="#000000"
+                android:shadowRadius="10.0"
+                android:shadowDx="10.0"
+                android:shadowDy="10.0"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Height40dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="10dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/Height40dp"
+        android:padding="2dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_keyword_talentresist_small"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="#"
+            android:paddingLeft="5dp"
+            android:textSize="@dimen/MainTxt"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:textColor="#808080"
+            />
+
+
+        <EditText
+            android:id="@+id/et_keyword_talentresist_small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="직접 입력"
+            android:textSize="@dimen/MainTxt"
+            android:background="#ffffff"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:clickable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_addTalent_talentresist"
+        android:layout_width="@dimen/Height40dp"
+        android:layout_height="@dimen/Height40dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="등록"
+            android:src="@drawable/test_add"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:tint="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/lv_talent_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:divider="#eeeeee"
+        android:dividerHeight="0.5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        android:stackFromBottom="false"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

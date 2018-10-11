@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.accepted.Home">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        >
+        <activity android:name="com.example.accepted.Home.MainActivity"
+            android:theme="@style/AppTheme_Home"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.example.accepted.TalentSharing.MainActivity"
+            android:theme="@style/AppThemeTransparent"
+            />
+
+        <activity android:name="com.example.accepted.TalentSharing.Popup"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            />
+
+
+        <activity android:name="com.example.accepted.TalentResist.MainActivity_big"
+            android:theme="@style/AppTheme_Home"
+            />
+
+        <activity android:name="com.example.accepted.TalentResist.MainActivity_small"
+            android:theme="@style/AppTheme_Home"
+            />
+
+        <activity android:name="com.example.accepted.TalentCondition.MainActivity"
+            android:theme="@style/AppThemeTransparent"
+            />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Height70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_picture_TalentSharing"
+            android:layout_width="@dimen/Height50dp"
+            android:layout_height="@dimen/Height50dp"
+            android:src="@drawable/picture_basic"
+            android:padding="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name_TalentSharing"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="박종우"
+            android:textSize="@dimen/MainTxt"
+            android:textColor="@color/textcolor_nameortitle"
+            />
+
+            <TextView
+                android:id="@+id/tv_keyword_TalentSharing"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:textColor="@color/textColor_addtion"
+                android:textSize="@dimen/AdditionTxt"
+                android:singleLine="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_distance_TalentSharing"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:text="9km"
+        android:singleLine="true"
+        android:gravity="center|right"
+        android:textSize="@dimen/SubTxt"
+        android:textColor="@color/textcolor_nameortitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

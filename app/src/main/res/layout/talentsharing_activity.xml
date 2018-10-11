@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/SharingList_WholeLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="24"
+    android:clickable="true"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height150dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_talent_talentsharing"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height150dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/test_money"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height150dp"
+                    android:background="#4b000000"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_talent_talentsharing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="재테크"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/Height30dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="10.0"
+                    android:shadowDx="10.0"
+                    android:shadowDy="10.0"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_edit_talentsharing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mentor 편집"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/MainTxt"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="10.0"
+                    android:shadowDx="10.0"
+                    android:shadowDy="10.0"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/inc_talentcategory"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#eeeeee"
+        />
+
+    <ListView
+        android:id="@+id/lv_talentsharing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ffffff"
+        >
+
+    </ListView>
+
+</LinearLayout>

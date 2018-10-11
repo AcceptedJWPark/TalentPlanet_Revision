@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Height50dp"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+    <View
+        android:id="@+id/view_divider1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ebebeb"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/view_divider2_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ebebeb"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_LeftBtn_Toolbar"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        >
+
+        <ImageView
+            android:id="@+id/iv_LeftBtn_Toolbar"
+            android:layout_width="@dimen/Toolbar_Img"
+            android:layout_height="@dimen/Toolbar_Img"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_backbtn"
+            android:shadowRadius="10.0"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:tint="#000000" />
+
+        <TextView
+            android:id="@+id/tv_LeftBtn_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/MainTxt"
+            android:gravity="center|left"
+            android:textColor="#000000"
+            android:text="이전"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_toolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/Toolbar_Img"
+        android:layout_centerInParent="true"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_RightBtn_Toolbar"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center|right"
+        android:focusableInTouchMode="false"
+        >
+
+    <ImageView
+        android:id="@+id/iv_RightBtn_Toolbar"
+        android:layout_width="@dimen/Toolbar_Img"
+        android:layout_height="@dimen/Toolbar_Img"
+        android:layout_centerVertical="true"
+        android:tint="#000000"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/icon_alarm"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        />
+
+        <TextView
+            android:id="@+id/tv_RightBtn_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textSize="@dimen/MainTxt"
+            android:gravity="center|right"
+            android:textColor="#000000"
+            android:text="완료"
+            android:src="@android:drawable/ic_popup_reminder"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

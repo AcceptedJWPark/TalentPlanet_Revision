@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_basicinfo_join"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/rl_picture_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_picture_profile"
+                    android:layout_width="@dimen/Height70dp"
+                    android:layout_height="@dimen/Height70dp"
+                    android:src="@drawable/picture_basic"
+                    />
+
+                <TextView
+                    android:layout_width="@dimen/Height70dp"
+                    android:layout_height="@dimen/Height30dp"
+                    android:gravity="center"
+                    android:text="추가"
+                    android:textSize="@dimen/SubTxt"
+                    android:textColor="#ffffff"
+                    android:background="#4d000000"
+                    android:layout_alignBottom="@id/iv_picture_profile"
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/SubTxt"
+                    android:text="E-mail"
+                    android:gravity="center|left"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    >
+
+
+
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/bgr_joininput"
+                        android:textSize="@dimen/SubTxt"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="중복 확인"
+                    android:textColor="#000000"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:textSize="@dimen/SubTxt"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bgr_talentunselected"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Height40dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:text="비밀번호"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/SubTxt"
+                    android:gravity="center|left"
+                    />
+
+
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/bgr_joininput"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/SubTxt"
+                    android:hint="숫자, 영문, 특수문자 중 2개"
+                    />
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee"
+                android:layout_marginTop="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height40dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/SubTxt"
+                        android:text="생년월일"
+                        android:gravity="center|left"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        >
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9"
+                            android:gravity="center"
+                            android:background="@drawable/bgr_joininput"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="#000000"
+                            android:inputType="number"
+                            android:hint="yyyy"
+                            />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9"
+                            android:gravity="center"
+                            android:background="@drawable/bgr_joininput"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="#000000"
+                            android:inputType="number"
+                            android:hint="mm"
+                            />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9"
+                            android:gravity="center"
+                            android:background="@drawable/bgr_joininput"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="#000000"
+                            android:inputType="number"
+                            android:hint="dd"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/tv_birthShow_join"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="공개"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_object"
+                            android:layout_toLeftOf="@id/swt_gender_home"
+                            />
+
+                        <Switch
+                            android:id="@+id/swt_birth_join"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:checked="true"
+                            android:theme="@style/SwitchColor"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Height40dp"
+                    android:layout_marginTop="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/SubTxt"
+                        android:text="성별"
+                        android:gravity="center|left"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        >
+                        <TextView
+                            android:id="@+id/tv_manselect_join"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9"
+                            android:gravity="center"
+                            android:background="@drawable/bgr_joininput"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_object"
+                            android:text="남자"
+                            />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            />
+
+
+
+                        <TextView
+                            android:id="@+id/tv_womanselect_join"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9"
+                            android:gravity="center"
+                            android:background="@drawable/bgr_joininput"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_object"
+                            android:text="여자"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/tv_genderShow_join"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="공개"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/SubTxt"
+                            android:textColor="@color/textColor_object"
+                            android:layout_toLeftOf="@id/swt_gender_home"
+                            />
+
+                        <Switch
+                            android:id="@+id/swt_gender_join"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:checked="true"
+                            android:theme="@style/SwitchColor"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
