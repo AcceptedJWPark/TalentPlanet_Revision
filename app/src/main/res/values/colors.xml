@@ -14,6 +14,7 @@
 
     <color name="textcolor_bigbtn">#ffffff</color>
     <color name="textcolor_smallbtn">#000000</color>
+    <color name="hint">#808080</color>
 
 
     <color name="toolbarcolor_background">#002c62</color>

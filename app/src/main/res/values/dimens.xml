@@ -17,6 +17,7 @@
     <dimen name="Height130dp">130dp</dimen>
     <dimen name="Height150dp">150dp</dimen>
     <dimen name="Width210dp">210dp</dimen>
+    <dimen name="Width250dp">250dp</dimen>
     <dimen name="Height300dp">300dp</dimen>
 
     <dimen name="clickedContainer">40dp</dimen>
